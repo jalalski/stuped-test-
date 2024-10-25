@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792728574685",
+    "project_id": "test-fire-base-d8783",
+    "storage_bucket": "test-fire-base-d8783.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792728574685:android:cf0ba6b8232dceefd25934",
+        "android_client_info": {
+          "package_name": "com.example.excomers_manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoJo2Ml4M9FGruTZ76_Ni5bNzxPBAjEdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
