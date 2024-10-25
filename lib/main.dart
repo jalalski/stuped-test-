@@ -2,7 +2,7 @@ import 'package:excomers_manager/information_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                   fontSize: 35,
                   fontWeight: FontWeight.bold,
                   fontFamily: "Cairo")),
-          appBarTheme: AppBarTheme(
+          appBarTheme: const AppBarTheme(
               centerTitle: true,
               backgroundColor: Colors.purple,
               titleTextStyle: TextStyle(
@@ -39,9 +39,9 @@ class MyApp extends StatelessWidget {
         ),
         home: SafeArea(
             child: Scaffold(
-          body: Setinformation(),
+          body: const Setinformation(),
           appBar: AppBar(
-            title: Text("اختبار الغباء"),
+            title: const Text("اختبار الغباء"),
           ),
         )));
   }
