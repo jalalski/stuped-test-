@@ -1,7 +1,10 @@
-import 'package:excomers_manager/information_page.dart';
+import 'package:excomers_manager/%20authentication/login.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -39,7 +42,7 @@ class MyApp extends StatelessWidget {
         ),
         home: SafeArea(
             child: Scaffold(
-          body: const Setinformation(),
+          body: const LoginPage(),
           appBar: AppBar(
             title: const Text("اختبار الغباء"),
           ),
